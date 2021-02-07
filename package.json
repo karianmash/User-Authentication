@@ -1,0 +1,29 @@
+{
+  "name": "user-authentication",
+  "version": "1.0.0",
+  "description": "Sample code to implementation authentication",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karianmash/User-Authentication.git"
+  },
+  "author": "karianmash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karianmash/User-Authentication/issues"
+  },
+  "homepage": "https://github.com/karianmash/User-Authentication#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
